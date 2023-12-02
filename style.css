@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+}
+
+.container{
+    width: 66vw;
+    margin: 20px auto;
+    /* background-color: rgb(168, 155, 155); */
+}
+
+.header_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: red;
+
+}
+
+.header_title{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+
+}
+
+.header_para{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+
+}
+
+
+.main_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* background-color: red; */
+}
+
+.card_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 240px;
+    border: 1px solid rgba(151, 147, 147, 0.432);
+
+}
+
+.card_image_container{
+    position: relative;
+    overflow: hidden;
+    height: 10rem;
+}
+
+.card_image{
+    object-fit: fill;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
